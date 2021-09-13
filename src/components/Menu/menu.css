@@ -1,0 +1,111 @@
+#menu {
+  width: 35px;
+  height: 30px;
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
+}
+
+.bar {
+  height: 5px;
+  width: 100%;
+  background-color: #fff;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+
+#bar3 {
+  transform: translateY(4px);
+}
+
+.nav li a {
+  color: #f72359;
+  text-decoration: none;
+  font-size: 2rem;
+  transition: 0.25s ease-in-out;
+}
+
+.nav li a:hover {
+  color: #fff;
+}
+
+.nav li {
+  list-style: none;
+  padding: 16px 0;
+}
+
+.nav {
+  padding: 0;
+  margin: 0 20px;
+  transition: 0.3s ease;
+  display: none;
+}
+
+.menu-bg,
+#menu-bar {
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.menu-bg {
+  z-index: 2;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background: rgb(0, 0, 0);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+#menu-bar {
+  z-index: 3;
+}
+
+.change-bg {
+  width: 550px;
+  height: 540px;
+  transform: translate(-60%, -30%);
+}
+
+.change .bar {
+  background-color: white;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotate(45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change {
+  display: block;
+}
+
+.exp-con-title {
+  position: fixed;
+  z-index: 1;
+  left: 5rem;
+  top: 1.2rem;
+}
+
+.exp-con-title a {
+  color: #fff;
+  font-size: 2.25rem;
+  text-decoration: none;
+  transition: 0.25s ease-in-out;
+}
+
+.exp-con-title a:hover {
+  color: #f72359;
+}

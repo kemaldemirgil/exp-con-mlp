@@ -1,0 +1,15 @@
+.red {
+  padding: 150vh 0 50vh 0;
+  background-color: rgb(221, 68, 41);
+}
+
+.red-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red h1 {
+  z-index: 2;
+  color: black;
+}
