@@ -4,6 +4,7 @@ import Slider from "../components/Slider";
 import Red from "../components/Red";
 import Yellow from "../components/Yellow";
 import Perks from "../components/Perks";
+import Reviews from "../components/Reviews";
 
 const MainLandingPage = () => {
   return (
@@ -13,6 +14,7 @@ const MainLandingPage = () => {
       <Red />
       <Yellow />
       <Perks />
+      <Reviews />
     </div>
   );
 };
