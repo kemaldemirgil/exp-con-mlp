@@ -1,5 +1,5 @@
 .footer {
-  height: 50vh;
+  height: 60vh;
   background-color: #5f2dc4;
   color: white;
 }
@@ -34,9 +34,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .footer {
-    height: 40vh;
-  }
   .footer .email {
     font-size: 1rem;
     padding: 5rem 0 2rem 2rem;

@@ -1,12 +1,16 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
-import MainLandingPage from "./MainLandingPage";
+import MainLanding from "./pages/MainLanding";
+import Pricing from "./pages/Pricing";
 
 function App() {
   return (
     <Router basename="/">
       <Route exact path="/">
-        <MainLandingPage />
+        <MainLanding />
+      </Route>
+      <Route exact path="/pricing">
+        <Pricing />
       </Route>
     </Router>
   );

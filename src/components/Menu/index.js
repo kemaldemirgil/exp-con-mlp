@@ -20,13 +20,13 @@ const Menu = () => {
           </div>
           <ul className="nav" id="nav">
             <li>
-              <Link to="/#">Home</Link>
+              <Link to="/">WHAT IS IT</Link>
             </li>
             <li>
-              <Link to="/#">Explore</Link>
+              <Link to="/#">PERKS</Link>
             </li>
             <li>
-              <Link to="/#">Contact</Link>
+              <Link to="/pricing">PRICING</Link>
             </li>
           </ul>
         </div>

@@ -1,8 +1,8 @@
 import React from "react";
-import "./button.css";
+import "./paymentButton.css";
 import { Link } from "react-router-dom";
 
-const Button = ({ text }) => {
+const PaymentButton = ({ color }) => {
   const buttonMove = (e) => {
     var x = e.pageX - e.target.offsetLeft;
     var y = e.pageY - e.target.offsetTop;
@@ -11,13 +11,17 @@ const Button = ({ text }) => {
   };
   return (
     <div>
-      <Link to="/pricing">
-        <button className="button" onMouseMove={buttonMove}>
-          <span>{text}</span>
+      <Link to="/payment">
+        <button
+          className="payment-button"
+          style={{ backgroundColor: `${color}` }}
+          onMouseMove={buttonMove}
+        >
+          <span>SELECT</span>
         </button>
       </Link>
     </div>
   );
 };
 
-export default Button;
+export default PaymentButton;

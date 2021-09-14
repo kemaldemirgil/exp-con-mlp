@@ -57,6 +57,9 @@
   }
 }
 @media only screen and (max-width: 767px) {
+  .red {
+    height: 110vh;
+  }
   .red-sub-img-container {
     margin-top: 3rem;
   }

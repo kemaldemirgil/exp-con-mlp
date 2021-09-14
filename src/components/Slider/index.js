@@ -6,11 +6,13 @@ const Slider = () => {
   let slide = 2;
 
   setInterval(() => {
-    if (slide === 4) {
-      slide = 1;
+    if (window.location.pathname === "/") {
+      if (slide === 4) {
+        slide = 1;
+      }
+      document.querySelector(".slide-radio" + slide).checked = true;
+      slide++;
     }
-    document.querySelector(".slide-radio" + slide).checked = true;
-    slide++;
   }, 10000);
 
   return (

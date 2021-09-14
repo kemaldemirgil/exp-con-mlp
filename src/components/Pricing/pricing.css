@@ -1,0 +1,90 @@
+.pricing {
+  background-color: #212121;
+}
+
+.pricing-info {
+  padding: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-info h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 3rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-right: auto;
+}
+
+.pricing-info p {
+  padding-top: 2rem;
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  margin-right: auto;
+}
+
+.pricing-container {
+  height: 130vh;
+  background-color: #212121;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: aliceblue;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.pricing-section {
+  padding: 0 3rem;
+  background-color: #212121;
+}
+
+.pricing-section h3 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.pricing-section h2 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 3rem;
+  letter-spacing: 1.5px;
+}
+
+.pricing-section h2 span {
+  font-size: 6rem;
+  letter-spacing: 1.5px;
+}
+
+.pricing-section ul li {
+  padding-top: 2rem;
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  list-style: none;
+}
+
+@media only screen and (max-width: 1015px) {
+  .pricing-container {
+    height: 250vh;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .pricing-container {
+    height: 380vh;
+  }
+  .pricing-section {
+    padding-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .pricing-info {
+    padding: 5rem;
+  }
+}
