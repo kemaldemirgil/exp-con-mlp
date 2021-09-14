@@ -1,0 +1,35 @@
+.getexp {
+  height: 80vh;
+  background-color: black;
+  color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.getexp-text h2 {
+  font-size: 4rem;
+  color: red;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 0 1rem;
+}
+
+.getexp-text h3 {
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 3px;
+  padding: 0 1rem;
+}
+
+.getexp-button button {
+  padding: 2rem 6rem !important;
+  font-size: 2rem !important;
+}
+
+@media only screen and (max-width: 940px) {
+  .getexp {
+    flex-direction: column;
+  }
+}
