@@ -1,15 +1,78 @@
 .red {
-  padding: 150vh 0 50vh 0;
-  background-color: rgb(221, 68, 41);
-}
-
-.red-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100vh;
+  margin-top: 100vh;
+  background-color: #cc3030;
 }
 
 .red h1 {
   z-index: 2;
   color: black;
+}
+
+.button-container {
+  float: right;
+  padding: 5rem;
+}
+
+.button-container * button {
+  background-color: aliceblue !important;
+  color: #cc3030;
+}
+
+.red-wrapper {
+  padding-top: 20vh;
+  display: flex;
+}
+
+.red-sub-container {
+  margin-left: 5rem;
+  margin-top: 5rem;
+  width: 80vw;
+}
+.red-sub-container h2 {
+  color: white;
+  font-weight: bolder;
+  font-size: 4rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.red-sub-container p {
+  color: black;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  margin: 3rem 0;
+}
+
+.red-sub-img-container2 img {
+  margin-top: 10rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .red-sub-img-container2,
+  .red-sub-img-container {
+    display: none;
+  }
+  .red-sub-container h1 {
+    font-size: 3rem;
+  }
+  .red-sub-container p {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .red-sub-img-container {
+    margin-top: 3rem;
+  }
+  .button-container {
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .red-sub-container {
+    margin-left: 2rem;
+  }
+  .red-wrapper {
+    padding-top: 0;
+  }
 }

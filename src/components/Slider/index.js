@@ -15,7 +15,7 @@ const Slider = () => {
 
   return (
     <div>
-      <div className="css-slider-wrapper">
+      <div className="slider-wrapper">
         <input
           type="radio"
           name="slider"
