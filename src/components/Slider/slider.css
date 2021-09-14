@@ -37,7 +37,6 @@
   background-image: url(../../assets/1.jpg);
   background-position: center;
   background-size: cover;
-  filter: brightness(80%);
 }
 
 .slide2 {
@@ -45,7 +44,6 @@
   background-position: center;
   background-size: cover;
   left: 100%;
-  filter: brightness(80%);
 }
 
 .slide3 {
@@ -53,7 +51,6 @@
   background-position: center;
   background-size: cover;
   left: 200%;
-  filter: brightness(80%);
 }
 
 .slider > div {

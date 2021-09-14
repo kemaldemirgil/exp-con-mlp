@@ -2,3 +2,50 @@
   height: 100vh;
   background-color: #fabd0c;
 }
+
+.yellow-container {
+  display: flex;
+}
+
+.yellow-img {
+  margin-top: 20vh;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.yellow-img img {
+  border-radius: 50%;
+  border: 2px solid black;
+  box-shadow: 2px 2px 8px rgb(73, 73, 73);
+}
+
+.yellow-text {
+  margin-top: 40vh;
+  min-width: 50%;
+  max-width: 80%;
+}
+
+.yellow-text h2 {
+  color: white;
+  font-weight: bolder;
+  font-size: 4rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.yellow-text p {
+  color: black;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  margin: 3rem 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .yellow-img {
+    display: none;
+  }
+  .yellow-text {
+    margin-top: 10vh;
+    margin-left: 20%;
+  }
+}

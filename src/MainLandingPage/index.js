@@ -3,6 +3,7 @@ import Menu from "../components/Menu";
 import Slider from "../components/Slider";
 import Red from "../components/Red";
 import Yellow from "../components/Yellow";
+import Perks from "../components/Perks";
 
 const MainLandingPage = () => {
   return (
@@ -11,6 +12,7 @@ const MainLandingPage = () => {
       <Slider />
       <Red />
       <Yellow />
+      <Perks />
     </div>
   );
 };
