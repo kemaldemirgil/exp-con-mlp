@@ -1,0 +1,50 @@
+.footer {
+  height: 50vh;
+  background-color: #5f2dc4;
+  color: white;
+}
+
+.footer .email {
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  padding: 5rem 0 2rem 5rem;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.copyright p {
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  padding-bottom: 1rem;
+  font-weight: 400;
+}
+
+.copyright .title {
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    height: 40vh;
+  }
+  .footer .email {
+    font-size: 1rem;
+    padding: 5rem 0 2rem 2rem;
+  }
+  .copyright .title {
+    font-size: 1.5rem;
+  }
+  .copyright p {
+    padding: 0 2rem;
+  }
+}

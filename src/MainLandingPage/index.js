@@ -6,6 +6,7 @@ import Yellow from "../components/Yellow";
 import Perks from "../components/Perks";
 import Reviews from "../components/Reviews";
 import GetExp from "../components/GetExp";
+import Footer from "../components/Footer";
 
 const MainLandingPage = () => {
   return (
@@ -17,6 +18,7 @@ const MainLandingPage = () => {
       <Perks />
       <Reviews />
       <GetExp />
+      <Footer />
     </div>
   );
 };
