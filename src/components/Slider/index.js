@@ -1,7 +1,9 @@
+// imports...................
 import React from "react";
 import "./slider.css";
 import Button from "../Button";
 
+// slider...................
 const Slider = () => {
   let slide = 2;
 
@@ -79,4 +81,5 @@ const Slider = () => {
   );
 };
 
+// exports...................
 export default Slider;

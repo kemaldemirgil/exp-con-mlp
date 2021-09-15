@@ -1,5 +1,7 @@
+/* roboto_google_fonts.............. */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+/* init.............. */
 html {
   scroll-behavior: smooth;
 }

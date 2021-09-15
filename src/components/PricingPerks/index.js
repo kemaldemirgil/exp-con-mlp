@@ -1,6 +1,8 @@
+// imports...................
 import React from "react";
 import "./pricingPerks.css";
 
+// pricingperks...................
 const PricingPerks = () => {
   return (
     <div className="pricing-perks">
@@ -66,4 +68,5 @@ const PricingPerks = () => {
   );
 };
 
+// exports...................
 export default PricingPerks;

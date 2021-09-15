@@ -1,6 +1,6 @@
 .payment {
   background-color: #fcfcfc;
-  height: 120vh;
+  height: 200vh;
 }
 
 .payment-page-menu * {
@@ -124,6 +124,8 @@
   border-bottom: 5px solid blue;
 }
 
+/* @media........................................ */
+
 @media only screen and (max-width: 1200px) {
   .payment-container {
     padding: 10rem 0 5rem 3rem;
@@ -142,10 +144,10 @@
     margin-bottom: 3rem;
   }
   .payment {
-    height: 170vh;
+    height: 220vh;
   }
   .payment-radio {
-    margin: 1rem 0.5rem 1rem 0;
+    margin: 1rem 1rem;
   }
 }
 
@@ -153,7 +155,10 @@
   .payment-submit {
     margin-left: 2rem;
   }
+}
+
+@media only screen and (max-width: 350px) {
   .payment {
-    height: 190vh;
+    height: 240vh;
   }
 }

@@ -1,8 +1,11 @@
+// imports...................
 import React from "react";
 import "./paymentButton.css";
 import { Link } from "react-router-dom";
 
+// paymentbutton...................
 const PaymentButton = ({ color }) => {
+  // get button coordinates
   const buttonMove = (e) => {
     var x = e.pageX - e.target.offsetLeft;
     var y = e.pageY - e.target.offsetTop;
@@ -24,4 +27,5 @@ const PaymentButton = ({ color }) => {
   );
 };
 
+// exports...................
 export default PaymentButton;

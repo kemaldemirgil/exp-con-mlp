@@ -74,6 +74,8 @@
   pointer-events: none;
 }
 
+/* @media........................................ */
+
 @media only screen and (max-width: 1200px) {
   .red-sub-img-container2,
   .red-sub-img-container {
@@ -90,6 +92,14 @@
   .red-sub-img-container {
     margin-top: 3rem;
   }
+
+  .red-sub-container h2 {
+    font-size: 2.5rem;
+  }
+  .red-sub-container p {
+    font-size: 2rem;
+  }
+
   .button-container {
     float: none;
     display: flex;

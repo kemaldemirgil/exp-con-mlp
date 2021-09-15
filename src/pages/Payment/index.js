@@ -1,8 +1,10 @@
+// imports...................
 import React from "react";
 import Footer from "../../components/Footer";
 import Menu from "../../components/Menu";
 import PaymentSection from "../../components/Payment";
 
+// payment...................
 const Payment = () => {
   return (
     <div>
@@ -15,4 +17,5 @@ const Payment = () => {
   );
 };
 
+// exports...................
 export default Payment;

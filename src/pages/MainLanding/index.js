@@ -1,3 +1,4 @@
+// imports...................
 import React from "react";
 import Menu from "../../components/Menu";
 import Slider from "../../components/Slider";
@@ -8,6 +9,7 @@ import Reviews from "../../components/Reviews";
 import GetExp from "../../components/GetExp";
 import Footer from "../../components/Footer";
 
+// mainlanding...................
 const MainLanding = () => {
   return (
     <div>
@@ -23,4 +25,5 @@ const MainLanding = () => {
   );
 };
 
+// exports...................
 export default MainLanding;

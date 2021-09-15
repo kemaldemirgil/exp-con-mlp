@@ -31,7 +31,11 @@
   padding-bottom: 2rem;
   padding-top: 2rem;
   font-weight: 400;
+  text-decoration: none;
+  color: white;
 }
+
+/* @media........................................ */
 
 @media only screen and (max-width: 600px) {
   .footer .email {

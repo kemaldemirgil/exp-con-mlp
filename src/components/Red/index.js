@@ -1,3 +1,4 @@
+// imports...................
 import React from "react";
 import "./red.css";
 import Button from "../Button";
@@ -5,6 +6,7 @@ import speaker1 from "../../assets/speaker-right.png";
 import speaker2 from "../../assets/speaker-left.png";
 import music from "../../assets/benny.mp3";
 
+// red...................
 const Red = () => {
   const togglePlay = () => {
     if (document.getElementById("myAudio") !== null) {
@@ -58,4 +60,5 @@ const Red = () => {
   );
 };
 
+// exports...................
 export default Red;

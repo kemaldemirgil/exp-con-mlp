@@ -28,8 +28,18 @@
   font-size: 2rem !important;
 }
 
+/* @media........................................ */
+
 @media only screen and (max-width: 940px) {
   .getexp {
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .getexp-text h2 {
+    font-size: 2.5rem;
+  }
+  .getexp-button button {
+    padding: 1.5rem 4rem !important;
   }
 }

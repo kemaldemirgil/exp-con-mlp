@@ -1,7 +1,9 @@
+// imports...................
 import React from "react";
 import "./getexp.css";
 import Button from "../Button";
 
+// getexp...................
 const GetExp = () => {
   return (
     <div className="getexp">
@@ -16,4 +18,5 @@ const GetExp = () => {
   );
 };
 
+// exports...................
 export default GetExp;

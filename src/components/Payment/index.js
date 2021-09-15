@@ -1,7 +1,9 @@
+// imports...................
 import React from "react";
 import "./payment.css";
 import Button from "../Button";
 
+// payment...................
 const Payment = () => {
   return (
     <div className="payment">
@@ -115,4 +117,5 @@ const Payment = () => {
   );
 };
 
+// exports...................
 export default Payment;

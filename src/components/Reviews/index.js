@@ -1,8 +1,10 @@
+// imports...................
 import React from "react";
 import "./reviews.css";
 import Button from "../Button";
 import img from "../../assets/round-speaker.png";
 
+// reviews...................
 const Reviews = () => {
   return (
     <div className="reviews">
@@ -47,4 +49,5 @@ const Reviews = () => {
   );
 };
 
+// exports...................
 export default Reviews;

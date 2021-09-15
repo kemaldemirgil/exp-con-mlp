@@ -1,14 +1,17 @@
+// imports...................
 import React from "react";
 import { Link } from "react-router-dom";
 import "./menu.css";
 
+// menu...................
 const Menu = () => {
   const onClickMenu = () => {
+    // toggle burger menu
     document.getElementById("menu").classList.toggle("change");
     document.getElementById("nav").classList.toggle("change");
     document.getElementById("menu-bg").classList.toggle("change-bg");
   };
-
+  // change menu text color
   if (window.location.pathname === "/payment") {
     if (document.querySelector(".exp")) {
       document.querySelector(".exp").style.color = "black";
@@ -51,4 +54,5 @@ const Menu = () => {
   );
 };
 
+// exports...................
 export default Menu;

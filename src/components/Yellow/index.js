@@ -1,8 +1,10 @@
+// imports...................
 import React from "react";
 import "./yellow.css";
 import img from "../../assets/4.gif";
 import Button from "../Button";
 
+// yellow...................
 const Yellow = () => {
   return (
     <div className="yellow">
@@ -23,4 +25,5 @@ const Yellow = () => {
   );
 };
 
+// exports...................
 export default Yellow;

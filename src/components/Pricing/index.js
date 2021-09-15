@@ -1,7 +1,9 @@
+// imports...................
 import React from "react";
 import "./pricing.css";
 import PaymentButton from "../PaymentButton";
 
+// pricing...................
 const Pricing = () => {
   return (
     <div className="pricing" id="start-today">
@@ -76,4 +78,5 @@ const Pricing = () => {
   );
 };
 
+// exports...................
 export default Pricing;

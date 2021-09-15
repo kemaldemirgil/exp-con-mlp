@@ -49,6 +49,8 @@
   letter-spacing: 1.5px;
 }
 
+/* @media........................................ */
+
 @media only screen and (max-width: 1265px) {
   .perks-section h1 {
     font-size: 3rem;

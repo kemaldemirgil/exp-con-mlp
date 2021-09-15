@@ -1,7 +1,9 @@
+// imports...................
 import React from "react";
 import "./perks.css";
 import Button from "../Button";
 
+// perks...................
 const Perks = () => {
   return (
     <div id="perks" className="perks">
@@ -70,4 +72,5 @@ const Perks = () => {
   );
 };
 
+// exports...................
 export default Perks;

@@ -1,9 +1,11 @@
+// imports...................
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import "./App.css";
 import MainLanding from "./pages/MainLanding";
 import Pricing from "./pages/Pricing";
 import Payment from "./pages/Payment";
+import "./App.css";
 
+// app...................
 function App() {
   return (
     <Router basename="/">
@@ -20,4 +22,5 @@ function App() {
   );
 }
 
+// exports...................
 export default App;
