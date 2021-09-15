@@ -76,7 +76,7 @@
   margin-bottom: 1rem;
   outline: none;
   border: 2px solid #3d3d3d;
-  border-bottom: 5px solid #ffffff00;
+  border-bottom: 5px solid #3d3d3d;
 }
 
 .input-fields input[type="text"]:focus {
