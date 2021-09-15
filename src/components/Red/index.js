@@ -3,13 +3,12 @@ import "./red.css";
 import Button from "../Button";
 import speaker1 from "../../assets/speaker-right.png";
 import speaker2 from "../../assets/speaker-left.png";
-import music from "../../assets/Adam Port - Planet 9.mp3";
+import music from "../../assets/benny.mp3";
 
 const Red = () => {
-  const myAudio = document.getElementById("myAudio");
-
   const togglePlay = () => {
-    if (myAudio !== null) {
+    if (document.getElementById("myAudio") !== null) {
+      const myAudio = document.getElementById("myAudio");
       return myAudio.paused ? myAudio.play() : myAudio.pause();
     }
   };
@@ -19,7 +18,7 @@ const Red = () => {
       <audio id="myAudio" src={music} preload="auto" />
       <div className="red-container">
         <div className="button-container">
-          <Button text="TRY IT NOW" location="pricing" />
+          <Button text="TRY IT NOW" location="pricing#start-today" />
         </div>
         <div className="red-wrapper">
           <div className="red-sub-container">

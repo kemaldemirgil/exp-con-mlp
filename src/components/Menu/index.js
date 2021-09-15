@@ -9,6 +9,16 @@ const Menu = () => {
     document.getElementById("menu-bg").classList.toggle("change-bg");
   };
 
+  if (window.location.pathname === "/payment") {
+    if (document.querySelector(".exp")) {
+      document.querySelector(".exp").style.color = "black";
+    }
+  } else if (window.location.pathname === "/") {
+    if (document.querySelector(".exp")) {
+      document.querySelector(".exp").style.color = "white";
+    }
+  }
+
   return (
     <>
       <div>
@@ -23,17 +33,19 @@ const Menu = () => {
               <Link to="/">WHAT IS IT</Link>
             </li>
             <li>
-              <a href="#perks">PERKS</a>
+              <a href="/pricing#perks">PERKS</a>
             </li>
             <li>
-              <Link to="/pricing">PRICING</Link>
+              <Link to="/pricing#start-today">PRICING</Link>
             </li>
           </ul>
         </div>
         <div className="menu-bg" id="menu-bg"></div>
       </div>
       <span className="exp-con-title">
-        <Link to="/#">EXP|CON</Link>
+        <Link className="exp" to="/">
+          EXP|CON
+        </Link>
       </span>
     </>
   );

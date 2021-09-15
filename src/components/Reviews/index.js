@@ -7,7 +7,7 @@ const Reviews = () => {
   return (
     <div className="reviews">
       <div className="button-container">
-        <Button text="TRY IT NOW" location="pricing"/>
+        <Button text="TRY IT NOW" location="pricing#start-today" />
       </div>
       <div className="reviews-container">
         <div className="reviews-img">

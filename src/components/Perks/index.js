@@ -6,7 +6,7 @@ const Perks = () => {
   return (
     <div id="perks" className="perks">
       <div className="button-container">
-        <Button text="TRY IT NOW" location="pricing" />
+        <Button text="TRY IT NOW" location="pricing#start-today" />
       </div>
       <div className="perks-container">
         <div className="perks-section">

@@ -4,7 +4,7 @@ import PaymentButton from "../PaymentButton";
 
 const Pricing = () => {
   return (
-    <div className="pricing">
+    <div className="pricing" id="start-today">
       <div className="pricing-info">
         <h1>Pricing</h1>
         <p>

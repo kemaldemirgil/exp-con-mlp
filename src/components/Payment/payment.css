@@ -117,6 +117,12 @@
   font-weight: bolder;
   color: blue;
 }
+.payment-submit button {
+  transition: 0.25s ease-in-out;
+}
+.payment-submit button:hover {
+  border-bottom: 5px solid blue;
+}
 
 @media only screen and (max-width: 1200px) {
   .payment-container {

@@ -49,20 +49,20 @@ const Payment = () => {
             <div className="input-fields">
               <label>FULL NAME</label>
               <br />
-              <input type="text" />
+              <input type="text" autoComplete="off" required />
               <br />
               <label>BILLING ADDRESS</label>
               <br />
-              <input type="text" />
+              <input type="text" autoComplete="off" required />
               <div className="sub-input-fields">
                 <div className="sub-input1">
                   <label>CITY</label>
                   <br />
-                  <input type="text" />
+                  <input type="text" autoComplete="off" required />
                 </div>
                 <div>
                   <label>POSTAL CODE</label>
-                  <input type="text" />
+                  <input type="text" autoComplete="off" required />
                 </div>
               </div>
               <label>COUNTRY</label>
@@ -80,25 +80,25 @@ const Payment = () => {
             <div className="input-fields">
               <label>CARDHOLDER'S NAME</label>
               <br />
-              <input type="text" />
+              <input type="text" autoComplete="off" required />
               <br />
               <label>CARD NUMBER</label>
               <br />
-              <input type="text" />
+              <input type="text" autoComplete="off" required />
               <div className="sub-input-fields">
                 <div className="sub-input1">
                   <label>EXPIRY MONTH</label>
                   <br />
-                  <input type="text" />
+                  <input type="text" autoComplete="off" required />
                 </div>
                 <div>
                   <label>EXPIRY YEAR</label>
-                  <input type="text" />
+                  <input type="text" autoComplete="off" required />
                 </div>
               </div>
               <label>CVV</label>
               <br />
-              <input type="text" />
+              <input type="text" autoComplete="off" required />
             </div>
           </div>
         </div>

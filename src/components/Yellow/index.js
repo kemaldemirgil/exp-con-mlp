@@ -7,7 +7,7 @@ const Yellow = () => {
   return (
     <div className="yellow">
       <div className="button-container">
-        <Button text="TRY IT NOW" location="pricing" />
+        <Button text="TRY IT NOW" location="pricing#start-today" />
       </div>
       <div className="yellow-container">
         <div className="yellow-img">

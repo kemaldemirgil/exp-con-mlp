@@ -94,18 +94,17 @@
 
 .exp-con-title {
   position: fixed;
-  z-index: 2;
+  z-index: 10;
   left: 5rem;
   top: 1.2rem;
 }
 
-.exp-con-title a {
-  color: #fff;
+.exp {
   font-size: 2.25rem;
   text-decoration: none;
   transition: 0.25s ease-in-out;
 }
 
-.exp-con-title a:hover {
+.exp:hover {
   color: #f72359;
 }
