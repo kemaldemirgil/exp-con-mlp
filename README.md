@@ -5,9 +5,9 @@
 <p align = "center">
   <img src="https://img.shields.io/npm/v/npm?color=red&logo=npm"/>
   <img src="https://img.shields.io/node/v/jest"/>
-  <img src="https://img.shields.io/github/license/kemaldemirgil/skydia?color=cyan&label=License&logo=github&logoColor=cyan"/>
-  <img src="https://img.shields.io/github/issues/kemaldemirgil/skydia?color=yellow&label=Issues&logo=github&logoColor=yellow">
-  <img src="https://img.shields.io/github/last-commit/kemaldemirgil/skydia?color=orange&label=Last%20Commit&logo=git&logoColor=orange">
+  <img src="https://img.shields.io/github/license/kemaldemirgil/exp-con-mlp?color=cyan&label=License&logo=github&logoColor=cyan"/>
+  <img src="https://img.shields.io/github/issues/kemaldemirgil/exp-con-mlp?color=yellow&label=Issues&logo=github&logoColor=yellow">
+  <img src="https://img.shields.io/github/last-commit/kemaldemirgil/exp-con-mlp?color=orange&label=Last%20Commit&logo=git&logoColor=orange">
 </p>
 
  ### 🚩 [EXP|CON Deployed Application](https://exp-con-mlp.herokuapp.com/)
