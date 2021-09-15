@@ -1,14 +1,14 @@
 .payment {
-  background-color: #fcfcfc;
+  background-color: var(--white);
   height: 200vh;
 }
 
 .payment-page-menu * {
-  color: #ba1616 !important;
+  color: var(--red) !important;
 }
 
 .payment-page-menu .bar {
-  background-color: #ba1616 !important;
+  background-color: var(--red) !important;
 }
 
 .payment-container {
@@ -75,12 +75,17 @@
   font-size: 1rem;
   margin-bottom: 1rem;
   outline: none;
-  border: 2px solid #3d3d3d;
-  border-bottom: 5px solid #3d3d3d;
+  border: 2px solid var(--dark);
+  border-bottom: 5px solid var(--dark);
 }
 
 .input-fields input[type="text"]:focus {
-  border: 2px solid #3d3d3d;
+  border: 2px solid var(--dark);
+  border-bottom: 5px solid blue;
+}
+
+.input-fields select:focus {
+  border: 2px solid var(--dark);
   border-bottom: 5px solid blue;
 }
 

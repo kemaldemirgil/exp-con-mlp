@@ -5,7 +5,7 @@
   appearance: none;
   padding: 1.5rem 6rem !important;
   border: none;
-  color: white;
+  color: var(--white);
   font-size: 1.5rem;
   cursor: pointer;
   outline: none;
@@ -28,7 +28,7 @@
   top: var(--y);
   width: var(--size);
   height: var(--size);
-  background: radial-gradient(circle closest-side, #4405f7, transparent);
+  background: radial-gradient(circle closest-side, blue, transparent);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   transition: width 0.2s ease, height 0.2s ease;

@@ -1,13 +1,13 @@
 .reviews {
-  background-color: rgb(0, 223, 223);
+  background-color: var(--aqua);
 }
 
 .reviews * button {
-  color: rgb(0, 223, 223) !important;
+  color: var(--aqua) !important;
 }
 
 .reviews-container {
-  background-color: rgb(0, 223, 223);
+  background-color: var(--aqua);
   height: 130vh;
   display: flex;
   align-items: center;
@@ -29,7 +29,7 @@
 .review-title h2 {
   margin-right: 20rem;
   font-size: 4rem;
-  color: white;
+  color: var(--white);
   font-weight: bolder;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -52,7 +52,7 @@
 
 .review h3 {
   font-size: 2rem;
-  color: white;
+  color: var(--white);
   font-weight: bolder;
   letter-spacing: 2px;
   text-transform: uppercase;

@@ -1,7 +1,7 @@
 .getexp {
   height: 80vh;
   background-color: black;
-  color: azure;
+  color: var(--gold);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -9,7 +9,7 @@
 
 .getexp-text h2 {
   font-size: 4rem;
-  color: red;
+  color: var(--red);
   font-weight: bolder;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -18,7 +18,7 @@
 
 .getexp-text h3 {
   font-size: 2rem;
-  color: white;
+  color: var(--white);
   letter-spacing: 3px;
   padding: 0 1rem;
 }

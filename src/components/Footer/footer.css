@@ -1,6 +1,6 @@
 .footer {
   height: 60vh;
-  background-color: #5f2dc4;
+  background-color: var(--purp);
   color: white;
 }
 

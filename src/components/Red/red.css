@@ -1,7 +1,7 @@
 .red {
   height: 100vh;
   margin-top: 100vh;
-  background-color: #cc3030;
+  background-color: #c44e4e;
 }
 
 .red h1 {
@@ -16,7 +16,7 @@
 
 .button-container * button,
 .red-sub-container * button {
-  background-color: aliceblue !important;
+  background-color: var(--white) !important;
   color: #cc3030;
 }
 
@@ -31,7 +31,7 @@
   width: 80vw;
 }
 .red-sub-container h2 {
-  color: white;
+  color: var(--white);
   font-weight: bolder;
   font-size: 4rem;
   letter-spacing: 1.5px;
@@ -58,7 +58,7 @@
   opacity: 0;
   transition: all 0.15s ease;
   padding: 10px;
-  color: #ffffff;
+  color: var(--white);
   border-radius: 10px;
   box-shadow: 2px 2px 1px #262626;
 }

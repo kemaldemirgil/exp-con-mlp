@@ -81,7 +81,7 @@
 }
 
 .slider .button {
-  color: #fff;
+  color: var(--white);
   padding: 5px 50px;
   background: rgba(255, 255, 255, 0.3);
   text-decoration: none;
@@ -126,7 +126,7 @@
 .slide-radio2:checked ~ .slider-pagination .page2,
 .slide-radio3:checked ~ .slider-pagination .page3,
 .slide-radio4:checked ~ .slider-pagination .page4 {
-  background: rgba(255, 255, 255, 1);
+  background: var(--white);
 }
 
 .slide-radio1:checked ~ .slider {

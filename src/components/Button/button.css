@@ -3,7 +3,8 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #f72359 !important;
+  animation: bg2ColorChange 2s infinite;
+  transition: 0.5 ease-in-out;
   padding: 1em 2em !important;
   border: none;
   color: white;
@@ -35,4 +36,19 @@
 
 .button:hover::before {
   --size: 400px;
+}
+
+@keyframes bg2ColorChange {
+  0% {
+    background-color: #d61111;
+  }
+  25% {
+    background-color: var(--aqua);
+  }
+  50% {
+    background-color: var(--gold);
+  }
+  100% {
+    background-color: #d61111;
+  }
 }

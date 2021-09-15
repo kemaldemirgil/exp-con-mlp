@@ -3,8 +3,8 @@
 }
 
 .perks * button {
-  background: #f72359 !important;
-  color: white;
+  background: var(--white) !important;
+  color: var(--dark);
 }
 
 .perks-container {

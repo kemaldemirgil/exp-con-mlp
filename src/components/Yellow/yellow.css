@@ -1,10 +1,10 @@
 .yellow {
   height: 100vh;
-  background-color: #fabd0c;
+  background-color: var(--gold);
 }
 
 .yellow * button {
-  color: #fabd0c;
+  color: var(--gold);
 }
 
 .yellow-container {
@@ -30,11 +30,11 @@
 }
 
 .yellow-text * button {
-  background-color: aliceblue !important;
+  background-color: var(--white) !important;
 }
 
 .yellow-text h2 {
-  color: white;
+  color: var(--white);
   font-weight: bolder;
   font-size: 4rem;
   letter-spacing: 1.5px;
@@ -42,7 +42,7 @@
 }
 
 .yellow-text p {
-  color: black;
+  color: var(--black);
   font-size: 2rem;
   letter-spacing: 1.5px;
   margin: 3rem 0;

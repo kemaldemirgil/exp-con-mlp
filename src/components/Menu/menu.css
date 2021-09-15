@@ -23,14 +23,14 @@
 }
 
 .nav li a {
-  color: #f72359;
+  color: var(--red);
   text-decoration: none;
   font-size: 2rem;
   transition: 0.25s ease-in-out;
 }
 
 .nav li a:hover {
-  color: #fff;
+  color: var(--white);
 }
 
 .nav li {
@@ -57,7 +57,7 @@
   width: 0;
   height: 0;
   margin: 30px 0 20px 20px;
-  background: rgb(0, 0, 0);
+  background: var(--dark);
   border-radius: 50%;
   transition: 0.3s ease;
 }
@@ -73,7 +73,7 @@
 }
 
 .change .bar {
-  background-color: white;
+  background-color: var(--white);
 }
 
 .change #bar1 {
@@ -107,47 +107,47 @@
 }
 
 .exp:hover {
-  color: #f72359;
+  color: var(--red);
   animation: none;
 }
 
 .bar:hover * .bar {
-  color: #f72359 !important;
+  color: var(--red) !important;
   animation: none;
 }
 
 @keyframes colorChange {
   0% {
-    color: red;
+    color: var(--red);
   }
   25% {
-    color: aqua;
+    color: var(--aqua);
   }
   50% {
-    color: gold;
+    color: var(--gold);
   }
   75% {
-    color: black;
+    color: var(--dark);
   }
   100% {
-    color: white;
+    color: var(--white);
   }
 }
 
 @keyframes bgColorChange {
   0% {
-    background-color: red;
+    background-color: var(--red);
   }
   25% {
-    background-color: aqua;
+    background-color: var(--aqua);
   }
   50% {
-    background-color: gold;
+    background-color: var(--gold);
   }
   75% {
-    background-color: black;
+    background-color: var(--dark);
   }
   100% {
-    background-color: white;
+    background-color: var(--white);
   }
 }
