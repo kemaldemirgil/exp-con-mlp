@@ -27,6 +27,10 @@ ReactJS
 
 ## 🌄 Images:
 
+Responsive Design                    |
+:---------------------------: |
+![](/src/assets/ss.png)   |
+
 📃 Landing Page                    | 📃 Price Page                  | 📃 Payment Page
 :-------------------------:   |:-------------------------:  |:-----------------:
 ![](/src/assets/lp.png)      |![](/src/assets/price.png)     |![](/src/assets/pay.png)
