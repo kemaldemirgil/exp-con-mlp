@@ -23,7 +23,7 @@ const Menu = () => {
               <Link to="/">WHAT IS IT</Link>
             </li>
             <li>
-              <Link to="/#">PERKS</Link>
+              <a href="#perks">PERKS</a>
             </li>
             <li>
               <Link to="/pricing">PRICING</Link>

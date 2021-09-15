@@ -2,6 +2,11 @@
   background-color: #000000;
 }
 
+.perks * button {
+  background: #f72359 !important;
+  color: white;
+}
+
 .perks-container {
   height: 100vh;
   background-color: #000000;

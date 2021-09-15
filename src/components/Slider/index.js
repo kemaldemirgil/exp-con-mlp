@@ -51,7 +51,7 @@ const Slider = () => {
               Experience your favourite artists like never
               <br /> before and from the comfort of your own home.
             </p>
-            <Button text="TRY IT NOW" />
+            <Button text="TRY IT NOW" location="pricing" />
           </div>
         </div>
         <div className="slider slide2">
@@ -61,7 +61,7 @@ const Slider = () => {
               Experience your favourite artists like never
               <br /> before and from the comfort of your own home.
             </p>
-            <Button text="TRY IT NOW" />
+            <Button text="TRY IT NOW" location="pricing" />
           </div>
         </div>
         <div className="slider slide3">
@@ -71,7 +71,7 @@ const Slider = () => {
               Experience your favourite artists like never
               <br /> before and from the comfort of your own home.
             </p>
-            <Button text="TRY IT NOW" />
+            <Button text="TRY IT NOW" location="pricing" />
           </div>
         </div>
       </div>

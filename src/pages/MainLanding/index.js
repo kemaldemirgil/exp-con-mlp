@@ -15,7 +15,7 @@ const MainLanding = () => {
       <Slider />
       <Red />
       <Yellow />
-      <Perks />
+      <Perks id="perks" />
       <Reviews />
       <GetExp />
       <Footer />

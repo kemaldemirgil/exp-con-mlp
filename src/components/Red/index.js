@@ -9,7 +9,7 @@ const Red = () => {
     <div className="red">
       <div className="red-container">
         <div className="button-container">
-          <Button text="TRY IT NOW" />
+          <Button text="TRY IT NOW" location="pricing" />
         </div>
         <div className="red-wrapper">
           <div className="red-sub-container">
@@ -17,7 +17,7 @@ const Red = () => {
             <p>
               Experience live versions of your <br /> favourite songs.
             </p>
-            <Button text="TRY IT NOW" />
+            <Button text="SEE DEMO" location="#" />
           </div>
           <div className="red-sub-img-container">
             <img

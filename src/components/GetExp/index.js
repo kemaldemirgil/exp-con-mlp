@@ -10,7 +10,7 @@ const GetExp = () => {
         <h3>Purchase and download the app.</h3>
       </div>
       <div className="getexp-button">
-        <Button text="TRY IT NOW" />
+        <Button text="TRY IT NOW" location="pricing"/>
       </div>
     </div>
   );

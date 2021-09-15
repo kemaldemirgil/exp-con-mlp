@@ -14,7 +14,8 @@
   padding: 2rem;
 }
 
-.button-container * button {
+.button-container * button,
+.red-sub-container * button {
   background-color: aliceblue !important;
   color: #cc3030;
 }

@@ -7,7 +7,7 @@ const Yellow = () => {
   return (
     <div className="yellow">
       <div className="button-container">
-        <Button text="TRY IT NOW" />
+        <Button text="TRY IT NOW" location="pricing" />
       </div>
       <div className="yellow-container">
         <div className="yellow-img">
@@ -16,7 +16,7 @@ const Yellow = () => {
         <div className="yellow-text">
           <h2>Front Row Seats</h2>
           <p>Experience concerts up close and personal.</p>
-          <Button text="SEE DEMO" />
+          <Button text="SEE DEMO" location="#" />
         </div>
       </div>
     </div>

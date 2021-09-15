@@ -3,6 +3,10 @@
   background-color: #fabd0c;
 }
 
+.yellow * button {
+  color: #fabd0c;
+}
+
 .yellow-container {
   display: flex;
 }
@@ -23,6 +27,10 @@
   margin-top: 40vh;
   min-width: 50%;
   max-width: 80%;
+}
+
+.yellow-text * button {
+  background-color: aliceblue !important;
 }
 
 .yellow-text h2 {

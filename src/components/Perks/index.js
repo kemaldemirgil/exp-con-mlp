@@ -4,9 +4,9 @@ import Button from "../Button";
 
 const Perks = () => {
   return (
-    <div className="perks">
+    <div id="perks" className="perks">
       <div className="button-container">
-        <Button text="TRY IT NOW" />
+        <Button text="TRY IT NOW" location="pricing" />
       </div>
       <div className="perks-container">
         <div className="perks-section">
