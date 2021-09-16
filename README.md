@@ -1,6 +1,6 @@
-<h1 align = "center">EXP|CON</h1>
+<p align = "center"> <img src="/src/assets/expcon.gif"/> </p>
 
-<h2 align = "center">Front End Application</h1>
+<h3 align = "center">Front End Application</h3>
 
 <p align = "center">
   <img src="https://img.shields.io/npm/v/npm?color=red&logo=npm"/>
@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/github/last-commit/kemaldemirgil/exp-con-mlp?color=orange&label=Last%20Commit&logo=git&logoColor=orange">
 </p>
 
- ### 🚩 [EXP|CON Deployed Application](https://exp-con-mlp.herokuapp.com/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://exp-con-mlp.herokuapp.com/)
 
 ## 🌇 About:
 **EXP|CON** contains of 3 pages; landing page, price page and the payment page. This application is just the front end side of it.
